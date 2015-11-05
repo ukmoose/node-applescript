@@ -20,7 +20,7 @@ Easy Install
 To install this scope
 
 ``` bash
-npm install @ukmoose/applescript
+~~npm install @ukmoose/applescript~~
 ```
 
 
@@ -60,7 +60,7 @@ applescript.execString(script, function(err, rtn) {
 may pass an optional Array of String arguments to send to the applescript file.
 
 
-The following applescript file shows the format you need to use.
+The following applescript file shows the format you need to use to recieve the variables passed.
 ```applescript
 on run argv
 	set soundvolume to (item 1 of argv) --set sound volume to external volume
