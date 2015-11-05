@@ -20,5 +20,8 @@
   "devDependencies": {
     "mocha": "~1.18.2",
     "pegjs": "~0.8.0"
-  }
+  },
+  "license": "MIT",
+  "os" : [ "darwin"]
+
 }
